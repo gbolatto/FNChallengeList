@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- has to be wrapped in another layout for margins to work within expandablelistview -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/itemHorizontalMargin"
+        android:layout_marginEnd="@dimen/itemHorizontalMargin"
+        android:minHeight="@dimen/itemHeight"
+        android:background="@color/itemBackgroundColor">
+
+        <TextView
+            android:id="@+id/challenge_item"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="@dimen/itemTextMarginStart"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/item_icon"
+            android:layout_marginTop="@dimen/itemVerticalMargin"
+            android:layout_marginBottom="@dimen/itemVerticalMargin"
+            android:textAppearance="@style/ItemStyle"
+            tools:text="Deal damage with Pistols to opponents"/>
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="@dimen/itemIconSize"
+            android:layout_height="@dimen/itemIconSize"
+            android:layout_marginEnd="@dimen/iconMarginEnd"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            tools:src="@drawable/unchecked_icon"/>
+
+    </RelativeLayout>
+</LinearLayout>

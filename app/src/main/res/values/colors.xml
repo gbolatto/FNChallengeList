@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="titleBackgroundColor">#607d8b</color>
+    <color name="titleTextColor">#FFFFFF</color>
+
+    <color name="backgroundColor">#263238</color>
+
+    <color name="headerTextColor">#FFFFFF</color>
+    <color name="itemTextColor">#cfd8dc</color>
+
+    <color name="headerBackgroundColor">#37474f</color>
+    <color name="itemBackgroundColor">#BB455a64</color>
+
+    <color name="groupIndicatorArrowColor">#FFFFFF</color>
+    <color name="checkIconColor">#4caf50</color>
+    <color name="uncheckedIconColor">#e53935</color>
+</resources>

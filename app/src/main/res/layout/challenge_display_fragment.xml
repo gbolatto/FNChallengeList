@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/error_info_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/error_info_padding"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/error_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/error_info_padding"
+            android:background="@drawable/header_background"
+            android:textAppearance="@style/ItemStyle"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/season_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/titleHeight"
+        android:paddingBottom="@dimen/titleVerticalPadding"
+        android:paddingEnd="@dimen/titleTextPaddingStart"
+        android:paddingStart="@dimen/titleTextPaddingStart"
+        android:paddingTop="@dimen/titleVerticalPadding"
+        android:textAppearance="@style/TitleStyle"
+        tools:text="Season 4"/>
+
+    <ExpandableListView
+        android:paddingStart="@dimen/paddingStartEnd"
+        android:paddingEnd="@dimen/paddingStartEnd"
+        android:id="@+id/week_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:groupIndicator="@null"/>
+
+</LinearLayout>

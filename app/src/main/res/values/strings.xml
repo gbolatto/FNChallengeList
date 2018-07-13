@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FN Challenge List</string>
+    <string name="season_4">Season 4</string>
+
+    <string name="internet_connection">No internet connection</string>
+    <string name="database_error">The database is empty or there was an error with the local cache.
+        \n\nIf this is your first time running the app, it will need an internet connection to get the
+        initial data off of the server and then to update future challenges as they come out.
+        \n\nIf this is not your first time, try reinstalling the application.  Unfortunately you
+        will lose your completions doing this, however. This is because we do not store or save
+        any data for the app remotely.
+    </string>
+</resources>

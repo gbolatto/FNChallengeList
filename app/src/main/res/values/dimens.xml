@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title dimensions -->
+    <dimen name="titleHeight">48dp</dimen>
+    <dimen name="titleTextPaddingStart">32dp</dimen>
+    <dimen name="titleVerticalPadding">8dp</dimen>
+    <dimen name="titleTextSize">42sp</dimen>
+
+    <!-- expandedlistview dimensions -->
+    <dimen name="paddingStartEnd">16dp</dimen>
+
+    <!-- header dimensions -->
+    <dimen name="groupHeaderHeight">32dp</dimen>
+    <dimen name="headerVerticalMargin">4dp</dimen>
+    <dimen name="indicatorIconSize">32dp</dimen>
+    <dimen name="headerTextMarginStart">16dp</dimen>
+    <dimen name="headerTextVerticalMargin">8dp</dimen>
+    <dimen name="headerTextSize">24sp</dimen>
+
+
+    <dimen name="iconMarginEnd">16dp</dimen>
+
+
+    <!-- item dimensions -->
+    <dimen name="itemHeight">28dp</dimen>
+    <dimen name="itemIconSize">24dp</dimen>
+    <dimen name="itemTextMarginStart">32dp</dimen>
+    <dimen name="itemVerticalMargin">8dp</dimen>
+    <dimen name="itemHorizontalMargin">16dp</dimen>
+    <dimen name="itemTextSize">18sp</dimen>
+
+    <dimen name="error_info_padding">16dp</dimen>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- has to be wrapped in another layout for margins to work within expandablelistview -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/headerVerticalMargin"
+        android:background="@drawable/header_background"
+        android:minHeight="@dimen/groupHeaderHeight">
+
+        <TextView
+            android:id="@+id/week_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/headerTextVerticalMargin"
+            android:layout_marginStart="@dimen/headerTextMarginStart"
+            android:layout_marginTop="@dimen/headerTextVerticalMargin"
+            android:textAppearance="@style/HeaderStyle"
+            tools:text="Week #1"/>
+
+        <ImageView
+            android:id="@+id/indicator"
+            android:layout_width="@dimen/indicatorIconSize"
+            android:layout_height="@dimen/indicatorIconSize"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/iconMarginEnd"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/down_arrow"/>
+
+    </RelativeLayout>
+</LinearLayout>
