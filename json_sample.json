@@ -1,0 +1,352 @@
+{
+	"seasons" : [
+		{ 
+			"id" : 3, 
+			"seasonName" : "Season 3",
+			"weeks" : [
+			]
+		},
+		{ 
+			"id" : 4,
+			"seasonName" : "Season 4",
+			"weeks" : [
+				{ 
+					"id" : 1,
+					"seasonId" : 4,
+					"weekName" : "Week #1",
+					"challenges" : [
+						{
+							"id" : 1,
+							"idWithinWeek" : 1,
+							"weekId" : 1,
+							"seasonId" : 4,
+							"challengeString" : "Week 1 Challenge 1"
+						},
+						{
+							"id" : 2,
+							"idWithinWeek" : 2,
+							"weekId" : 1,
+							"seasonId" : 4,
+							"challengeString" : "Week 1 Challenge 2"
+						},
+						{
+							"id" : 3,
+							"idWithinWeek" : 3,
+							"weekId" : 1,
+							"seasonId" : 4,
+							"challengeString" : "Week 1 Challenge 3"
+						},
+						{
+							"id" : 4,
+							"idWithinWeek" : 4,
+							"weekId" : 1,
+							"seasonId" : 4,
+							"challengeString" : "Week 1 Challenge 4"
+						},
+						{ 
+							"id" : 5,
+							"idWithinWeek" : 5,
+							"weekId" : 1,
+							"seasonId" : 4,
+							"challengeString" : "Week 1 Challenge 5"
+						},
+						{
+							"id" : 6,
+							"idWithinWeek" : 6,
+							"weekId" : 1,
+							"seasonId" : 4,
+							"challengeString" : "Week 1 Challenge 6"
+						},
+						{
+							"id" : 7,
+							"idWithinWeek" : 7,
+							"weekId" : 1,
+							"seasonId" : 4,
+							"challengeString" : "Week 1 Challenge 7"
+						}
+					]
+				},
+				{ 
+					"id" : 2,
+					"seasonId" : 4,
+					"weekName" : "Week #2",
+					"challenges" : [
+						{
+							"id" : 8,
+							"idWithinWeek" : 1,
+							"weekId" : 2,
+							"seasonId" : 4,
+							"challengeString" : "Week 2 Challenge 1"
+						},
+						{
+							"id" : 9,
+							"idWithinWeek" : 2,
+							"weekId" : 2,
+							"seasonId" : 4,
+							"challengeString" : "Week 2 Challenge 2"
+						},
+						{
+							"id" : 10,
+							"idWithinWeek" : 3,
+							"weekId" : 2,
+							"seasonId" : 4,
+							"challengeString" : "Week 2 Challenge 3"
+						},
+						{
+							"id" : 11,
+							"idWithinWeek" : 4,
+							"weekId" : 2,
+							"seasonId" : 4,
+							"challengeString" : "Week 2 Challenge 4"
+						},
+						{
+							"id" : 12,
+							"idWithinWeek" : 5,
+							"weekId" : 2,
+							"seasonId" : 4,
+							"challengeString" : "Week 2 Challenge 5"
+						},
+						{
+							"id" : 13,
+							"idWithinWeek" : 6,
+							"weekId" : 2,
+							"seasonId" : 4,
+							"challengeString" : "Week 2 Challenge 6"
+						},
+						{
+							"id" : 14,
+							"idWithinWeek" : 7,
+							"weekId" : 2,
+							"seasonId" : 4,
+							"challengeString" : "Week 2 Challenge 7"
+						}
+					] 
+				},
+				{ 
+					"id" : 3,
+					"seasonId" : 4,
+					"weekName" : "Week #3",
+					"challenges" : [
+						{
+							"id" : 15,
+							"idWithinWeek" : 1,
+							"weekId" : 3,
+							"seasonId" : 4,
+							"challengeString" : "Week 3 Challenge 1"
+						},
+						{
+							"id" : 16,
+							"idWithinWeek" : 2,
+							"weekId" : 3,
+							"seasonId" : 4,
+							"challengeString" : "Week 3 Challenge 2"
+						},
+						{
+							"id" : 17,
+							"idWithinWeek" : 3,
+							"weekId" : 3,
+							"seasonId" : 4,
+							"challengeString" : "Week 3 Challenge 3"
+						},
+						{
+							"id" : 18,
+							"idWithinWeek" : 4,
+							"weekId" : 3,
+							"seasonId" : 4,
+							"challengeString" : "Week 3 Challenge 4"
+						},
+						{
+							"id" : 19,
+							"idWithinWeek" : 5,
+							"weekId" : 3,
+							"seasonId" : 4,
+							"challengeString" : "Week 3 Challenge 5"
+						},
+						{
+							"id" : 20,
+							"idWithinWeek" : 6,
+							"weekId" : 3,
+							"seasonId" : 4,
+							"challengeString" : "Week 3 Challenge 6"
+						},
+						{
+							"id" : 21,
+							"idWithinWeek" : 7,
+							"weekId" : 3,
+							"seasonId" : 4,
+							"challengeString" : "Week 3 Challenge 7"
+						}
+					] 
+				},
+				{ 
+					"id" : 4,
+					"seasonId" : 4,
+					"weekName" : "Week #4",
+					"challenges" : [
+						{
+							"id" : 22,
+							"idWithinWeek" : 1,
+							"weekId" : 4,
+							"seasonId" : 4,
+							"challengeString" : "Week 4 Challenge 1"
+						},
+						{
+							"id" : 23,
+							"idWithinWeek" : 2,
+							"weekId" : 4,
+							"seasonId" : 4,
+							"challengeString" : "Week 4 Challenge 2"
+						},
+						{
+							"id" : 24,
+							"idWithinWeek" : 3,
+							"weekId" : 4,
+							"seasonId" : 4,
+							"challengeString" : "Week 4 Challenge 3"
+						},
+						{
+							"id" : 25,
+							"idWithinWeek" : 4,
+							"weekId" : 4,
+							"seasonId" : 4,
+							"challengeString" : "Week 4 Challenge 4"
+						},
+						{
+							"id" : 26,
+							"idWithinWeek" : 5,
+							"weekId" : 4,
+							"seasonId" : 4,
+							"challengeString" : "Week 4 Challenge 5"
+						},
+						{
+							"id" : 27,
+							"idWithinWeek" : 6,
+							"weekId" : 4,
+							"seasonId" : 4,
+							"challengeString" : "Week 4 Challenge 6"
+						},
+						{
+							"id" : 28,
+							"idWithinWeek" : 7,
+							"weekId" : 4,
+							"seasonId" : 4,
+							"challengeString" : "Week 4 Challenge 7"
+						}
+					] 
+				},
+				{ 
+					"id" : 5,
+					"seasonId" : 4,
+					"weekName" : "Week #5",
+					"challenges" : [
+						{
+							"id" : 29,
+							"idWithinWeek" : 1,
+							"weekId" : 5,
+							"seasonId" : 4,
+							"challengeString" : "Week 5 Challenge 1"
+						},
+						{
+							"id" : 30,
+							"idWithinWeek" : 2,
+							"weekId" : 5,
+							"seasonId" : 4,
+							"challengeString" : "Week 5 Challenge 2"
+						},
+						{
+							"id" : 31,
+							"idWithinWeek" : 3,
+							"weekId" : 5,
+							"seasonId" : 4,
+							"challengeString" : "Week 5 Challenge 3"
+						},
+						{
+							"id" : 32,
+							"idWithinWeek" : 4,
+							"weekId" : 5,
+							"seasonId" : 4,
+							"challengeString" : "Week 5 Challenge 4"
+						},
+						{
+							"id" : 33,
+							"idWithinWeek" : 5,
+							"weekId" : 5,
+							"seasonId" : 4,
+							"challengeString" : "Week 5 Challenge 5"
+						},
+						{
+							"id" : 34,
+							"idWithinWeek" : 6,
+							"weekId" : 5,
+							"seasonId" : 4,
+							"challengeString" : "Week 5 Challenge 6"
+						},
+						{
+							"id" : 35,
+							"idWithinWeek" : 7,
+							"weekId" : 5,
+							"seasonId" : 4,
+							"challengeString" : "Week 5 Challenge 7"
+						}
+					] 
+				},
+				{ 
+					"id" : 6,
+					"seasonId" : 4,
+					"weekName" : "Week #6",
+					"challenges" : [
+						{
+							"id" : 36,
+							"idWithinWeek" : 1,
+							"weekId" : 6,
+							"seasonId" : 4,
+							"challengeString" : "Week 6 Challenge 1"
+						},
+						{
+							"id" : 37,
+							"idWithinWeek" : 2,
+							"weekId" : 6,
+							"seasonId" : 4,
+							"challengeString" : "Week 6 Challenge 2"
+						},
+						{
+							"id" : 38,
+							"idWithinWeek" : 3,
+							"weekId" : 6,
+							"seasonId" : 4,
+							"challengeString" : "Week 6 Challenge 3"
+						},
+						{
+							"id" : 39,
+							"idWithinWeek" : 4,
+							"weekId" : 6,
+							"seasonId" : 4,
+							"challengeString" : "Week 6 Challenge 4"
+						},
+						{
+							"id" : 40,
+							"idWithinWeek" : 5,
+							"weekId" : 6,
+							"seasonId" : 4,
+							"challengeString" : "Week 6 Challenge 5"
+						},
+						{
+							"id" : 41,
+							"idWithinWeek" : 6,
+							"weekId" : 6,
+							"seasonId" : 4,
+							"challengeString" : "Week 6 Challenge 6"
+						},
+						{
+							"id" : 42,
+							"idWithinWeek" : 7,
+							"weekId" : 6,
+							"seasonId" : 4,
+							"challengeString" : "Week 6 Challenge 7"
+						}
+					] 
+				}					
+			]
+		}
+	]
+}
