@@ -10,4 +10,4 @@ components in the app and first time creating an API.
 I used node.js json-server to create a quick fake API to test with so the API used was kind of lackluster.  API calls are built around it
 so not the most robust.
 
-json_sample.json has the API file used for json-server creation.
+json_sample.json has the test file used for json-server creation.
